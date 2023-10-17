@@ -13,6 +13,12 @@
 </head>
 <body>
     <h1>Git練習中</h1>
-    <h2>勉強頑張ります</h2>
+    <h2 id="clicktext">勉強頑張ります</h2>
+    <script>
+        document.getElementById("clicktext").addEventListener("click", function(){
+            console.log("クリックした！")
+            document.getElementById("clicktext").style.color="blue"
+        })
+    </script>
 </body>
 </html>

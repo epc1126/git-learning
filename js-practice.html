@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript練習中</title>
+</head>
+<body>
+    <input type="button" value="クリック" id="clickbutton"/>
+    <script>
+        // コンソールログでログを出す
+        console.log("Hello world!")
+        console.log("テスト")
+        // getElementByIdで要素取得してaddEventListenerでクリックしたときのイベントを登録
+        document.getElementById("clickbutton").addEventListener("click",function(){
+            console.log("クリックした！")
+        })
+    </script>
+</body>
+</html>
